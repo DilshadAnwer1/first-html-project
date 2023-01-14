@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Shopping Online</title>
+    <style>
+        header {
+            background-color: lightslategray;
+            color: white;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        footer {
+            background-color: rgb(101, 105, 109);
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            height: 360px;
+            display: grid;
+            grid-template-columns: 3fr 9fr 3fr;
+            margin-top: 15px;
+        }
+
+        iframe {
+            width: 500%;
+            height: 360px;
+            border: none;
+        }
+
+        ul {
+            list-style: none;
+            margin: right 30px;
+        }
+
+        li {
+            font-size: 20;
+            background-color: lightsteelblue;
+            color: white;
+            padding: 5px;
+            width: 200px;
+            border: 2px lightsteelblue;
+            border-radius: 10px;
+            margin-bottom: 20;
+        }
+
+        a {
+            color: white;
+            text-decoration: wavy;
+        }
+    </style>
+
+<body>
+    <header>
+        <h1><span class="">Shopping Online</span></h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="framebody">Home</a></li>
+                <li><a href="electronic.html" target="framebody">Electronic</a></li>
+                <li><a href="fashion.html" target="framebody">Fashion</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <iframe name="Framebody" src="home.html"></iframe>
+        </main>
+    </section>
+    <footer>
+        <div>&copy;Copyright 2022</div>
+    </footer>
+</body>
+</head>
+
+</html>
